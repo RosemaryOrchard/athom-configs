@@ -84,7 +84,6 @@ sensor:
     update_interval: 60s
 
   - platform: cse7766
-    update_interval: 10s
     current:
       name: "Current"
       filters:
@@ -140,10 +139,6 @@ button:
   - platform: factory_reset
     name: "Restart with Factory Default Settings"
     id: Reset
-
-  - platform: safe_mode
-    name: "Safe Mode"
-    internal: false
 
   - platform: safe_mode
     name: "Safe Mode"
